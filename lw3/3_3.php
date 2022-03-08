@@ -8,26 +8,39 @@ $numbers = 0;
 $upperCase = 0;
 $lowerCase = 0;
 $curSym = '';
-for ($i = 0; $i < $pasLen; $i++) {
-    $curSym = $symbolArray[$password[$i]]; 
-    if ($curSym) {
+for ($i = 0; $i < $pasLen; $i++) 
+{
+    $curSym = $password[$i]; 
+    if ($symbolArray[$curSym]) 
+    {
         $symbolArray[$password[$i]] = $symbolArray[$password[$i]] + 1; 
-    } else {
+    } 
+    else 
+    {
         $symbolArray[$password[$i]] = 1;
     }
-    if (ctype_upper($curSym)) {
+    if (ctype_upper($curSym)) 
+    {
         $upperCase += 1;
     }
-    if (ctype_lower($curSym)) {
+    if (ctype_lower($curSym)) 
+    {
         $lowerCase += 1;
     }
+    if (is_numeric($curSym)) 
+    {
+        $numbers += 1;
+    }
 }
-foreach ($symbolArray as $value) {
-    if ($value > 1) {
+foreach ($symbolArray as $value) 
+{
+    if ($value > 1) 
+    {
         $mark -= $value;
     }
 }
-if ($pasLen > 0) {
+if ($pasLen > 0) 
+{
     $mark += $pasLen*4;
     $mark += $numbers*4;
     $mark += $upperCase > 0 ? ($pasLen - $upperCase)*2 : 0;
