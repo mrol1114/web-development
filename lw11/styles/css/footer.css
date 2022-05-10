@@ -1,0 +1,11 @@
+.footer {
+    padding: 30px 0;
+    background-color: var(--color-block);
+}
+
+.footer__logo 
+{
+    display: block;
+    margin: 0 auto;
+    padding-left: 5px;
+}
