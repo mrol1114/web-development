@@ -1,0 +1,150 @@
+
+/* header */
+
+.header-indent {
+    width: 1680px;
+    margin-left: 121px;
+}
+
+.header {
+    margin-bottom: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 1px;
+}
+
+.nav {
+    margin-right: 100px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-item:not(:last-child) {
+    margin-right: 87px;
+}
+
+/* hero */
+
+.hero {
+    margin: 0 188px 65px 178px;
+    margin-bottom: 65px;
+    display: flex;
+}
+
+.hero__text {
+    width: 50%;
+    margin-top: 150px;
+    margin-right: 15px;
+}
+
+.hero__text-header {
+    margin-bottom: 20px;
+}
+
+.hero__img {
+    display: block;
+    height: 635px;
+    width: 50%;
+}
+
+.hero__text-desc {
+    width: 545px;
+    margin-bottom: 45px;
+}
+
+/* info */
+
+.info {
+    margin-bottom: 70px;
+    padding: 115px 0 140px 0;
+}
+
+.info__list {
+    display: flex;
+    margin-left: 381px;
+}
+
+.info__list-item {
+    text-align: center;
+    width: 305px;
+}
+
+.info__list-item-text {
+    padding-bottom: 13px;
+}
+
+.info__list-item_first {
+    margin-right: 106px;
+}
+
+.info__list-item_second {
+    margin-right: 103px;
+    width: 337px;
+}
+
+.info__list-item-icon {
+    margin-bottom: 22px;
+}
+
+/* cant-do */
+
+.cant-do {
+    margin: 0 auto;
+    margin-bottom: 130px;
+    width: 1170px;
+}
+
+.cant-do__row-first {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.cant-do__row-first-img {
+    display: block;
+    margin-right: 50px;
+}
+
+.cant-do__row-second {
+    display: flex;
+    padding-left: 26px;
+}
+
+.cant-do__row-second-desc {
+    margin-top: 250px;
+    margin-right: 80px;
+}
+
+.cant-do__row-first-desc {
+    margin-top: 227px;
+}
+
+.cant-do__row-desc-header {
+    margin-bottom: 29px;
+}
+
+/* about */
+
+.about {
+    margin: 0 auto;
+    width: 1118px;
+    margin-bottom: 288px;
+}
+
+.about__header {
+    margin-left: 292px;
+    margin-bottom: 60px;
+}
+
+.about__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 31px;
+}

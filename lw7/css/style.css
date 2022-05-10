@@ -1,0 +1,43 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol 
+{
+    list-style-type: none;
+}
+
+.file-padding 
+{
+    margin-top: 31px;
+}
+
+.indent 
+{
+    margin: 0 120px;
+}
+
+.button 
+{
+    width: 247px;
+    height: 55px;
+    text-align: center;
+    border-radius: 4.59px;
+    border: 0;
+    background-color: var(--color-button);
+    font: normal 600 16px var(--font-family-header);
+    color: var(--color-background);
+}
+
+.button_long 
+{
+    width: 332px;
+}
+
+.highlight 
+{
+    color: var(--color-highlighting);
+}

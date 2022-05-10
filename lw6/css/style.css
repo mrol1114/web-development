@@ -1,0 +1,156 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol 
+{
+    list-style-type: none;
+}
+
+.file-padding 
+{
+    margin-top: 30px;
+}
+
+.indent 
+{
+    margin: 0 120px;
+}
+
+.button 
+{
+    width: 247px;
+    height: 55px;
+    text-align: center;
+    border-radius: 4.59px;
+    border: 0;
+    background-color: var(--color-dark);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    font-weight: 600;
+    color: #fff;
+}
+
+.button_long 
+{
+    width: 332px;
+}
+
+.pink 
+{
+    color: var(--color-pink);
+}
+
+.logo__do 
+{
+    color: var(--color-pink);
+}
+
+/* header */
+
+.header 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav__list-item-link 
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* hero */
+
+.hero__text-header 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+
+.hero__text-desc 
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--color-grey);
+}
+
+/* info */
+
+.info 
+{
+    background-color: #000;
+}
+
+.info__list-item-text 
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    line-height: 120%;
+    color: #fff;
+}
+
+/* cant-do */
+
+.cant-do__row-desc-header 
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.cant-do__row-desc-text 
+{
+    width: 574px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    font-weight: 400;
+    color: var(--color-grey);
+}
+
+
+/* about */
+
+.about__header 
+{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.about__list-item 
+{
+    width: 358px;
+    padding: 33px 33px 45px 40px;
+    border-radius: 7.35723px;
+    background-color: #000;
+}
+
+.about__list-item-img 
+{
+    margin-bottom: 16px;
+}
+
+.about__list-item-text 
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* footer */
+
+.footer 
+{
+    padding: 30px 876px;
+    background-color: #000;
+}
